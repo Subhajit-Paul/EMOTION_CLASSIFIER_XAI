@@ -3,6 +3,7 @@
 # The GoEmotions Dataset by Google
 
 The GoEmotions Dataset, curated by Google, offers several compelling reasons for its selection in natural language processing (NLP) tasks:
+![Emotions](https://blogger.googleusercontent.com/img/a/AVvXsEigu_MmQ7zbqciHaEAl_rjZYNEPX6GyGEh9nkIoGOaMUg3BPCizBGJc-FhAMluHZHVX2cArth_0RgQVaEELUT3Y4oWv3V1h_ES5YjNxXJPre5YZy_2bG7ihLKjKOrQJTjEM-9SFLTFq6-Beo94ZS7yqslE-VFOH4xRlUX35rBVYtPskYGIv4DbBRiL08Q=s1213)
 
 ## 1. **Rich Emotion Annotations:**
    - GoEmotions provides a diverse and extensive set of emotion categories, allowing for a nuanced understanding of emotional expressions in text.
@@ -23,6 +24,7 @@ The GoEmotions Dataset, curated by Google, offers several compelling reasons for
 ## 5. **Suitability for Transfer Learning:**
    - The dataset is well-suited for transfer learning tasks, enabling the pre-training of models on emotion-rich data before fine-tuning on specific downstream tasks.
    - T
+## Find more at this [Blog](https://blog.research.google/2021/10/goemotions-dataset-for-fine-grained.html)
 
 # BERTClass Model Architecture
 
