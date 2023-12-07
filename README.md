@@ -23,8 +23,23 @@ The GoEmotions Dataset, curated by Google, offers several compelling reasons for
 
 ## 5. **Suitability for Transfer Learning:**
    - The dataset is well-suited for transfer learning tasks, enabling the pre-training of models on emotion-rich data before fine-tuning on specific downstream tasks.
-   - T
-## Find more at this [Blog](https://blog.research.google/2021/10/goemotions-dataset-for-fine-grained.html)
+   - 
+### Find more at this [Blog](https://blog.research.google/2021/10/goemotions-dataset-for-fine-grained.html)
+
+# Overview of Preprocessing
+The preprocessing steps are applied to the GoEmotions dataset, a manually annotated dataset designed for fine-grained emotion prediction, with a focus on emotions expressed in Reddit comments. The dataset encompasses 28 different emotions.
+
+## 1. Loading Important Libraries
+   - Various libraries are imported, such as `Pandas` for data manipulation, `NumPy` for numerical operations, and `NLTK` for text cleaning and processing.
+
+## 2. Loading the Data
+   - The dataset is loaded using the `HuggingFace` `Datasets` library, and it is split into training, testing, and validation sets.
+
+## 3. Finding and Handling Out-of-Vocabulary Words
+   - Out-of-vocabulary (OOV) words are identified by checking the coverage of the vocabulary in pre-trained word embeddings (GloVe). Preprocessing steps include handling contractions, wrong-spelled words, and emojis.
+
+## 4. Saving Processed Splits as Texts and Labels
+   - The preprocessed text and labels for the training, testing, and validation sets are saved as compressed numpy arrays for future use.
 
 # BERTClass Model Architecture
 
