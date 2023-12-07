@@ -1,5 +1,13 @@
 # EMOTION_CLASSIFIER_XAI
 
+## Setup
+### 1. Install necessary libraries from the `requirements.txt` using `pip install -r requirements.txt`
+### 2. Go through the Preprocessing and Data Cleaning steps at `Data_Cleaning.ipynb`
+### 3. Go through the Model Training Process at `training.ipynb`. More about the architecture see `bert_model_graph.pdf`
+### 4. Go through the Model Inference and Explainability at `inference_and_explainability.ipynb`
+
+## To Get more Hands-On run app.py using `streamlit run app.py`
+
 # The GoEmotions Dataset by Google
 
 The GoEmotions Dataset, curated by Google, offers several compelling reasons for its selection in natural language processing (NLP) tasks:
