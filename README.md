@@ -1,5 +1,7 @@
 # EMOTION_CLASSIFIER_XAI
-
+---
+A simple Transformer based NLP algorithm that uses `BERT` pretrained parameters and the power of Explainable AI to understand the classification of Emotions on a given input. To enhance the interpretability of the model's decisions, saliency maps are employed. Saliency maps highlight the most influential words or tokens in a given input text that contribute to the model's prediction. By visualizing these salient regions, users can gain insights into which words or phrases the model relies on to make accurate emotion predictions.
+---
 ## Setup
 ### 1. Install necessary libraries from the `requirements.txt` using `pip install -r requirements.txt`
 ### 2. Go through the Preprocessing and Data Cleaning steps at `Data_Cleaning.ipynb`
@@ -34,7 +36,7 @@ The GoEmotions Dataset, curated by Google, offers several compelling reasons for
 
 ## 5. **Suitability for Transfer Learning:**
    - The dataset is well-suited for transfer learning tasks, enabling the pre-training of models on emotion-rich data before fine-tuning on specific downstream tasks.
-   - 
+     
 ### Find more at this [Blog](https://blog.research.google/2021/10/goemotions-dataset-for-fine-grained.html)
 
 # Overview of Preprocessing
