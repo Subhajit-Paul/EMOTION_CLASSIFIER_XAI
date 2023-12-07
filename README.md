@@ -6,6 +6,8 @@
 ### 3. Go through the Model Training Process at `training.ipynb`. More about the architecture see `bert_model_graph.pdf`
 ### 4. Go through the Model Inference and Explainability at `inference_and_explainability.ipynb`
 
+* find the datasets here `https://drive.google.com/drive/folders/1-TCcCU2tAy-MJP_Pp8wSbJWCu6sJC2hP?usp=sharing` *
+
 ## To Get more Hands-On run app.py using `streamlit run app.py`
 
 # The GoEmotions Dataset by Google
