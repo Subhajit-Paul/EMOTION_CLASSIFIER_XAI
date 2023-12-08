@@ -172,5 +172,5 @@ if input_text:
     st.markdown("#### Credits:")
     st.markdown(
         "This app uses a pre-trained emotion transformer model, finetuned on a 28 label Dataset"
-        "For more details, refer to the [GitHub repository](https://github.com/yourusername/emotion-classifier-app)."
+        "For more details, refer to the [GitHub repository](https://github.com/Subhajit-Paul/EMOTION_CLASSIFIER_XAI/)."
     )
