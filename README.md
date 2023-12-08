@@ -1,4 +1,8 @@
 # EMOTION_CLASSIFIER_XAI
+![image](https://github.com/Subhajit-Paul/EMOTION_CLASSIFIER_XAI/assets/67813523/9d491ba7-9c42-40fe-a12b-1c27fc26c59d)
+
+![image](https://github.com/Subhajit-Paul/EMOTION_CLASSIFIER_XAI/assets/67813523/ec9ed074-d3a1-4f98-bf7e-312173505421)
+
 ---
 A simple Transformer based NLP algorithm that uses `BERT` pretrained parameters and the power of Explainable AI to understand the classification of Emotions on a given input. To enhance the interpretability of the model's decisions, saliency maps are employed. Saliency maps highlight the most influential words or tokens in a given input text that contribute to the model's prediction. By visualizing these salient regions, users can gain insights into which words or phrases the model relies on to make accurate emotion predictions.
 ---
